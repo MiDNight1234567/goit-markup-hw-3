@@ -106,6 +106,10 @@ a {
 
 .hero-section {
   background-color: #2e2f42;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
