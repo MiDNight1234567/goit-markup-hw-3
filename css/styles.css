@@ -236,7 +236,7 @@ img {
 
 .section-list {
   background-color: #ffffff;
-  idth: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .section-team {
@@ -327,10 +327,10 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: inline-block;
   margin-bottom: 16px;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .footer-logo .accent {
