@@ -333,6 +333,11 @@ img {
   display: inline-block;
 }
 
+.footer .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-logo .accent {
   color: #f4f4fd;
 }
