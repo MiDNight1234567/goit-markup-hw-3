@@ -22,6 +22,8 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
@@ -32,26 +34,42 @@ img {
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Header */
 
 .header-hero {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
-  max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 25px;
-  margin-right: 25px;
-  width: 1158px;
-  margin: 0 auto;
+.header-hero .container {
+  display: flex;
   padding: 0 15px;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 
 .main {
@@ -62,6 +80,7 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+  margin: 0;
 }
 
 .header-logo {
@@ -171,6 +190,7 @@ img {
   letter-spacing: 0.04em;
   min-width: 169px;
   height: 56px;
+  display: block;
   border-radius: 4px;
   color: var(--color-light);
   border: none;
@@ -230,7 +250,7 @@ img {
 }
 
 .list {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-list {
@@ -247,6 +267,7 @@ img {
 .product-designer {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 /* Benefit section */
